@@ -8,11 +8,14 @@
 * https://piccalil.li/blog/a-css-project-boilerplate
 */
 
+/* Design Tokens */
 @import "design-tokens/colors.css";
 @import "design-tokens/fonts.css";
 
+/* Globals */
 @import "global/global.css";
 @import "global/reset.css";
 @import "global/variables.css";
 
+/* Globs */
 @import-glob "utilities/*.css";
