@@ -1,0 +1,23 @@
+/*
+* Visually hides an element while keeping it accessible to assistive
+* technologies such as screen-readers.
+* https://kittygiraudel.com/snippets/sr-only-class
+*
+* Valid cases: complementary content to provide more context, such as for icon
+* buttons/links.
+* https://kittygiraudel.com/2021/02/17/hiding-content-responsibly/#summary
+*/
+
+.screen-reader-only {
+	-webkit-clip-path: inset(50%) !important;
+	border: 0 !important;
+	clip-path: inset(50%) !important;
+	clip: rect(1px, 1px, 1px, 1px) !important;
+	height: 1px !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	padding: 0 !important;
+	position: absolute !important;
+	white-space: nowrap !important;
+	width: 1px !important;
+}

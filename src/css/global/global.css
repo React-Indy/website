@@ -1,0 +1,49 @@
+/*
+* Low-specificity, global styles that apply to the whole project.
+*/
+
+body {
+	background-color: var(--color-white);
+	color: var(--color-eerie-black);
+	font-family: var(--roboto-regular-font-family);
+	font-style: var(--roboto-regular-font-style);
+	font-weight: var(--roboto-regular-font-weight);
+
+	& em {
+		font-style: var(--roboto-regular-italic-font-style);
+	}
+
+	& strong {
+		font-style: var(--roboto-bold-font-weight);
+	}
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--roboto-slab-bold-font-family);
+	font-style: var(--roboto-slab-bold-font-style);
+	font-weight: var(--roboto-slab-bold-font-weight);
+
+	& em {
+		font-style: var(--roboto-slab-bold-italic-font-style);
+	}
+}
+
+pre,
+code {
+	font-family: var(--roboto-mono-regular-font-family);
+	font-style: var(--roboto-mono-regular-font-style);
+	font-weight: var(--roboto-mono-regular-font-weight);
+
+	& em {
+		font-style: var(--roboto-mono-regular-italic-font-style);
+	}
+
+	& strong {
+		font-style: var(--roboto-mono-bold-font-weight);
+	}
+}

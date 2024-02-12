@@ -1,0 +1,12 @@
+/*
+* Color names come from the Coolors palette tool:
+* https://coolors.co/222222-3b3b3b-023f50-6adcfb-ffffff
+*/
+
+:root {
+	--color-eerie-black: #222222;
+	--color-midnight-green: #023f50;
+	--color-onyx: #3b3b3b;
+	--color-sky-blue: #6adcfb;
+	--color-white: #ffffff;
+}
