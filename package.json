@@ -1,11 +1,15 @@
 {
 	"scripts": {
 		"build": "next build",
-		"lint": "next lint",
+		"eslint:check": "next lint",
+		"eslint:fix": "next lint --fix",
+		"lint": "npm run stylelint:check && npm run eslint:check",
 		"prepare": "husky",
 		"prettier:check": "npx prettier . --check",
-		"prettier:write": "npx prettier . --write",
-		"start": "next dev"
+		"prettier:fix": "npx prettier . --write",
+		"start": "next dev",
+		"stylelint:check": "npx stylelint **/*.css",
+		"stylelint:fix": "npx stylelint **/*.css --fix"
 	},
 	"dependencies": {
 		"next": "^14.1.0",
