@@ -9,11 +9,12 @@ const HomePage = () => {
 
 			<h2>What we&apos;re about</h2>
 			<p>
-				<strong>React.Indy</strong> is a group for anyone interested in React,
-				React Native, React frameworks (like Next.js), JavaScript, TypeScript,
-				or front-end engineering. It doesn&apos;t matter if you don&apos;t know
-				anything about React, don&apos;t use it every day, or are early in your
-				web development career. <strong>Everyone is welcome.</strong>
+				<strong>React.Indy</strong> is an Indianapolis-based group for anyone
+				interested in React, React Native, React frameworks (like Next.js),
+				JavaScript, TypeScript, or front-end engineering. It doesn&apos;t matter
+				if you don&apos;t know anything about React, don&apos;t use it every
+				day, or are early in your web development career.{" "}
+				<strong>Everyone is welcome.</strong>
 			</p>
 			<p>
 				All organizers and members of <strong>React.Indy</strong>, as well as
