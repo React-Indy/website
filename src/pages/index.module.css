@@ -4,6 +4,16 @@
 	min-height: 100vh;
 }
 
+.header {
+	background-color: var(--color-eerie-black);
+
+	& img {
+		height: auto;
+		max-width: 1000px;
+		margin: 0 auto;
+	}
+}
+
 .main {
 	padding: 24px;
 	margin: 0 auto;

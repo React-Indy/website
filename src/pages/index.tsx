@@ -1,4 +1,3 @@
-import Image from "next/image";
 import classNames from "classnames";
 import styles from "./index.module.css";
 
@@ -8,7 +7,7 @@ const CODE_OF_CONDUCT_LINK =
 const HomePage = () => {
 	return (
 		<div className={styles.root}>
-			<header>
+			<header className={styles.header}>
 				{/* eslint-disable-next-line @next/next/no-img-element */}
 				<img
 					alt="logo"
