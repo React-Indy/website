@@ -15,6 +15,13 @@ html {
 	text-size-adjust: none;
 }
 
+/* Set core body defaults */
+body {
+	min-height: 100vh;
+	line-height: var(--modular-scale-ratio);
+	margin: 0;
+}
+
 /* Remove default margin in favour of better control in authored CSS */
 blockquote,
 body,
@@ -35,12 +42,6 @@ pre {
 ul[role="list"],
 ol[role="list"] {
 	list-style: none;
-}
-
-/* Set core body defaults */
-body {
-	min-height: 100vh;
-	line-height: var(--modular-scale-ratio);
 }
 
 /* Set shorter line heights on headings and interactive elements */
