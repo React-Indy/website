@@ -1,4 +1,6 @@
+import Image from "next/image";
 import classNames from "classnames";
+import heroImage from "../../public/hero.png";
 import styles from "./index.module.css";
 
 const CODE_OF_CONDUCT_LINK =
@@ -8,10 +10,9 @@ const HomePage = () => {
 	return (
 		<div className={styles.root}>
 			<header className={styles.header}>
-				{/* eslint-disable-next-line @next/next/no-img-element */}
-				<img
+				<Image
 					alt="logo"
-					src="/hero.png"
+					src={heroImage}
 				/>
 			</header>
 			<main className={classNames("flow", styles.main)}>
