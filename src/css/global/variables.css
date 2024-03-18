@@ -1,0 +1,14 @@
+/*
+* Home for global variables that apply to the whole project.
+*/
+
+:root {
+	/* https://every-layout.dev/rudiments/modular-scale/ */
+	--modular-scale-ratio: 1.5;
+	--transition-duration: 0ms;
+
+	/* Only enable animation if query is supported and value is no-preference */
+	@media (prefers-reduced-motion: no-preference) {
+		--transition-duration: 0.2s;
+	}
+}

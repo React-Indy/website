@@ -1,0 +1,16 @@
+{
+	"extends": ["stylelint-config-standard"],
+	"rules": {
+		"at-rule-empty-line-before": [
+			"always",
+			{
+				"except": ["after-same-name"],
+				"ignore": ["after-comment"]
+			}
+		],
+		"at-rule-no-unknown": [true, { "ignoreAtRules": ["import-glob"] }],
+		"color-hex-length": "long",
+		"declaration-block-no-redundant-longhand-properties": null,
+		"import-notation": null
+	}
+}

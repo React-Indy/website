@@ -1,0 +1,21 @@
+/*
+* File for importing all src/css files into one single place.
+*
+* Enables global styles to be imporetd with one line in src/pages/_app.tsx:
+* https://nextjs.org/docs/pages/building-your-application/styling/css-modules#global-styles
+*
+* Inspired by "A CSS project boilerplate":
+* https://piccalil.li/blog/a-css-project-boilerplate
+*/
+
+/* Design Tokens */
+@import "design-tokens/colors.css";
+@import "design-tokens/fonts.css";
+
+/* Globals */
+@import "global/global.css";
+@import "global/reset.css";
+@import "global/variables.css";
+
+/* Globs */
+@import-glob "utilities/*.css";

@@ -1,0 +1,58 @@
+/*
+* Fonts chosen and embedded using Google Fonts:
+* https://fonts.google.com/share?selection.family=Roboto+Mono:ital,wght@0,100..700;1,100..700|Roboto+Slab:wght@100..900|Roboto:ital,wght@0,400;0,700;1,400;1,700
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+:root {
+	/* Roboto, Regular */
+	--roboto-regular-font-family: "Roboto", sans-serif;
+	--roboto-regular-font-style: normal;
+	--roboto-regular-font-weight: 400;
+
+	/* Roboto, Regular, Italic */
+	--roboto-regular-italic-font-family: "Roboto", sans-serif;
+	--roboto-regular-italic-font-style: italic;
+	--roboto-regular-italic-font-weight: 400;
+
+	/* Roboto, Bold */
+	--roboto-bold-font-family: "Roboto", sans-serif;
+	--roboto-bold-font-style: normal;
+	--roboto-bold-font-weight: 700;
+
+	/* Roboto, Bold, Italic */
+	--roboto-bold-italic-font-family: "Roboto", sans-serif;
+	--roboto-bold-italic-font-style: italic;
+	--roboto-bold-italic-font-weight: 700;
+
+	/* Roboto Mono, Regular */
+	--roboto-mono-regular-font-family: "Roboto Mono", monospace;
+	--roboto-mono-regular-font-style: normal;
+	--roboto-mono-regular-font-weight: 400;
+
+	/* Roboto Mono, Regular, Italic */
+	--roboto-mono-regular-italic-font-family: "Roboto Mono", monospace;
+	--roboto-mono-regular-italic-font-style: italic;
+	--roboto-mono-regular-italic-font-weight: 400;
+
+	/* Roboto Mono, Bold */
+	--roboto-mono-bold-font-family: "Roboto Mono", monospace;
+	--roboto-mono-bold-font-style: normal;
+	--roboto-mono-bold-font-weight: 700;
+
+	/* Roboto Mono, Bold, Italic */
+	--roboto-mono-bold-italic-font-family: "Roboto Mono", monospace;
+	--roboto-mono-bold-italic-font-style: italic;
+	--roboto-mono-bold-italic-font-weight: 700;
+
+	/* Roboto Slab, Bold */
+	--roboto-slab-bold-font-family: "Roboto Slab", serif;
+	--roboto-slab-bold-font-style: normal;
+	--roboto-slab-bold-font-weight: 700;
+
+	/* Robot Slab, Bold, Italic */
+	--roboto-slab-bold-italic-font-family: "Roboto Slab", serif;
+	--roboto-slab-bold-italic-font-style: italic;
+	--roboto-slab-bold-italic-font-weight: 700;
+}
