@@ -1,10 +1,9 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: 'Bug: [insert name here]'
-labels: ''
-assignees: ''
-
+title: "Bug: [insert name here]"
+labels: ""
+assignees: ""
 ---
 
 ## Bug Description
