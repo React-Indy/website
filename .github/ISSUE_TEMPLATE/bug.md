@@ -1,12 +1,12 @@
 ---
-name: Bug report
+name: Bug
 about: Create a report to help us improve
 title: "Bug: [insert name here]"
 labels: ""
 assignees: ""
 ---
 
-## Bug Description
+## Description
 
 A clear and concise description of what the bug is. A sentence or two should do the job.
 
