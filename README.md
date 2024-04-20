@@ -10,15 +10,18 @@ The contributing process documentation is still in-progress. The numbered list b
 
 After you've created a fork of this repository under your GitHub account, and cloned your fork to your machine, the contribution flow looks like:
 
-1. Create a new branch from `main`
-2. Make changes and commit them to your branch
-3. Create a PR with your branch against this repo's `main`
-4. Request review(s) of your PR
-5. Allow at least 24-48 hours for review
-6. Address any review comments
-7. Repeat steps 4-6 as needed
-8. Allow your PR to be approved & merged
-9. Celebrate! 🎉
+1. Pick a [repo issue](https://github.com/React-Indy/website/issues) to work on.
+2. Create a new branch from `main`
+3. Make changes and commit them to your branch
+4. Create a PR with your branch against this repo's `main`
+   1. [Link the PR to the issue using a keyword.](https://docs.github.com/en/issues/tracking-your-work-with-issues/linking-a-pull-request-to-an-issue)
+   2. Ex: `Made header image responsive. Fixes React-Indy/website#5`
+5. Request review(s) of your PR
+6. Allow at least 24-48 hours for review
+7. Address any review comments
+8. Repeat steps 4-6 as needed
+9. Allow your PR to be approved & merged
+10. Celebrate! 🎉
 
 ### 1b. Related resources
 
@@ -43,4 +46,4 @@ The following commands should be run with your chosen command line application f
 
 1. Run `npm install` to install project dependencies
 2. Run `npm start` to start the app in development mode
-3. Go to http://localhost:3000/ in your web browser
+3. Go to [http://localhost:3000/](http://localhost:3000) in your web browser

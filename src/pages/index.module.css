@@ -7,8 +7,9 @@
 .header {
 	background-color: var(--color-eerie-black);
 
-	& img {
+	& > img {
 		height: auto;
+		width: 100%;
 		max-width: 1000px;
 		margin: 0 auto;
 	}
