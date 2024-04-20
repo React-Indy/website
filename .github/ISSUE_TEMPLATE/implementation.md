@@ -1,9 +1,8 @@
 ---
-name: Implementation
+name: Feature Implementation
 about: For planned implementations (not feature requests)
-title: "Implement [insert name here]"
-labels: ""
-assignees: ""
+title: "[Feature] Implement <insert feature name here>"
+labels: ["type: feature", "function: engineering"]
 ---
 
 ## Description

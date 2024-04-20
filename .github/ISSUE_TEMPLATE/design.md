@@ -1,9 +1,8 @@
 ---
-name: Design
+name: Feature Design
 about: For designing planned features (not feature requests)
-title: "Design [insert name here]"
-labels: ""
-assignees: ""
+title: "[Feature] Design <insert feature name here>"
+labels: ["type: feature", "function: design/ux"]
 ---
 
 ## Description
