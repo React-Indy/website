@@ -13,6 +13,7 @@ const HomePage = () => {
 				<Image
 					alt="logo"
 					src={heroImage}
+					sizes="100vw"
 				/>
 			</header>
 			<main className={classNames("flow", styles.main)}>
