@@ -1,0 +1,7 @@
+.events-list {
+	list-style-type: none;
+
+	/* Add gap between list items */
+	display: grid;
+	gap: 30px;
+}
