@@ -1,5 +1,6 @@
 import { getSortedEventsData } from "../../../lib/getEventsData";
 import EventsList from "components/EventsList";
+import Head from "next/head";
 
 //Use next.js fetching method getStaticProps() to add the events data to the page
 export async function getStaticProps() {
@@ -11,9 +12,18 @@ export async function getStaticProps() {
 
 const EventsPage = ({ allEventsData }) => {
 	return (
-		<div className="eventsPage">
-			<EventsList events={allEventsData}></EventsList>
-		</div>
+		<>
+			<Head>
+				<title>React Indy | Events </title>
+				<meta
+					name="keywords"
+					content="events"
+				/>
+			</Head>
+			<div className="eventsPage">
+				<EventsList events={allEventsData}></EventsList>
+			</div>
+		</>
 	);
 };
 
