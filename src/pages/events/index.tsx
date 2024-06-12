@@ -21,6 +21,7 @@ const EventsPage = ({ allEventsData }) => {
 				/>
 			</Head>
 			<div className="eventsPage">
+				<h1>Events Page</h1>
 				<EventsList events={allEventsData}></EventsList>
 			</div>
 		</>
